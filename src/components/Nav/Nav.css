@@ -1,0 +1,43 @@
+li {
+    /* width: 60px; */
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+li .tooltiptext {
+    font-size: 1rem;
+    visibility: hidden;
+    width: 100px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 2px;
+    /* top: 150%;
+    left: 50%; 
+    margin-left: -40px; */
+}
+
+li:hover .tooltiptext {
+    visibility: visible;
+}
+
+#name {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    background-color: #777777;
+    color: white;
+    width: 25rem;
+    height: 6rem;
+    line-height: 6rem;
+    margin: 0;
+}
+
+nav {
+    border-bottom: 4px solid #777777;
+}
+
+nav .container {
+    width: 60rem;
+}
