@@ -8,7 +8,7 @@ class Nav extends Component {
 
   render() {
     return (
-      <nav className={"navbar navbar-expand-lg navbar-light bg-light mb-5 pt-0 pb-0"}>
+      <nav className={"navbar navbar-expand-lg navbar-light mb-5 pt-0 pb-0"}>
       <Container>
       <h3 className={"font-weight-bold pl-3"} id="name">Geoffrey Godwin-Austen</h3>
             <button className={"navbar-toggler"} type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
